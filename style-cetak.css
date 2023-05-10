@@ -1,0 +1,27 @@
+.table-inputdata-admin {
+    background-color: #bfffcd;
+    color: #364f6b;
+    border-collapse: collapse;
+    margin-top: 12px;
+    font-weight: 500;
+  }
+
+  .tr-inputdata {
+    border: 1px solid #364f6b;
+  }
+
+.td-inputdata {
+  border: 1px solid #364f6b;
+
+    padding: 10px;
+    text-align: center;
+
+  }
+
+.th-inputdata {
+
+      border: 1px solid #364f6b;
+
+  }
+
+  

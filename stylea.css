@@ -1,0 +1,1123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+ 
+.body {
+    width: 100%;
+    min-height: 100vh;
+   background-color: #364f6b;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.radio {
+    margin-left: 20px;
+}
+ 
+.container {
+    width: 400px;
+    min-height: 400px;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    padding: 40px 30px;
+}
+ 
+.input-group-berhasildaftar {
+
+    margin-top: 20px;
+}
+.container .login-text {
+    color: #111;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 8px;
+    display: block;
+    text-transform: capitalize;
+}
+ 
+.container .login-email .input-group {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+}
+ 
+.container .login-email .input-group input {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #364f6b;;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background: transparent;
+    outline: none;
+    transition: .3s;
+
+}
+ 
+.container .login-email .input-group input:focus, .container .login-email .input-group input:valid {
+    border-color: #364f6b;
+}
+ 
+.paragraf-home {
+
+    font-weight: 400;
+}
+.btn {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    background: #364f6b;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #FFF;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.surat-berhasildaftar {
+
+    width: 300px;
+}
+
+.btn:hover {
+transform: translateY(-5px);
+background-color: #18222e;
+}
+ 
+
+ 
+.login-register-text {
+    color: #111;
+    font-weight: 500;
+    font-size: 0.9rem;
+    
+}
+ 
+.login-register-text a {
+    text-decoration: none;
+    color: #364f6b;
+}
+ 
+.container-logout {
+    width: 500px;
+    min-height: 200px;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    padding: 40px 30px;
+}
+ 
+.container-logout .login-email .input-group .btn {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: #364f6b;;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #FFF;
+    cursor: pointer;
+    transition: .3s;
+    margin-top: 20px;
+}
+ 
+.container-logout .login-email .input-group .btn:hover {
+    transform: translateY(-5px);
+    background: #364f6b;;
+}
+ 
+@media (max-width: 430px) {
+    .container {
+        width: 300px;
+    }
+}
+.button-wa-rt {
+    appearance: none;
+    background-color: #2ea44f;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  
+  .button-wa-rt:focus:not(:focus-visible):not(.focus-visible) {
+    box-shadow: none;
+    outline: none;
+  }
+  
+  .button-wa-rt:hover {
+    background-color: #2d7042;
+  }
+  
+  .button-wa-rt:focus {
+    box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+    outline: none;
+  }
+  
+  .button-wa-rt:disabled {
+    background-color: #2ea44f;
+    border-color: rgba(27, 31, 35, .1);
+    color: rgba(230, 171, 171, 0.8);
+    cursor: default;
+  }
+  
+  .button-wa-rt:active {
+    background-color: #2ea44f;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+  }
+.button-download {
+    appearance: none;
+    background-color: #364f6b;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+
+  .tambahdata-paragfraf {
+
+    margin-top: 4px;
+  }
+
+  .note-isi-data-form {
+
+    margin-top: 2px;
+    margin-bottom: 12px;
+  }
+  .input {
+    border: 2px solid #364f6b;
+    border-radius: 6px;
+    margin-left: 60px;
+    padding: 0px 6px;
+
+  }
+
+  .margin-paragraf-admin {
+
+    margin-top: 6px;
+  }
+
+  .contact-info {
+
+    margin-top: 8px;
+  }
+
+  .gambar-contact {
+ 
+    width: 2px;
+    height: 2px;
+  }
+  
+
+  .paragraf-info {
+
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .submit-inputdata {
+
+    margin-top: 20px;
+    margin-left: 68px;
+
+  }
+  .radio {
+    margin-left: 65px;
+  }
+
+  .radioperempuan {
+
+    margin-left: 20px;
+  }
+  
+  .form-suratpengantar {
+
+    font-size: 14px;
+  }
+
+    .button-submit-inputdatasuratdownload:disabled {
+
+     margin-top: 20px;
+    margin-left: 68px;
+     appearance: none;
+    background-color: #b1b1b1;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #838383;
+    cursor: not-allowed;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  .button-submit-inputdatasuratdownload {
+
+     margin-top: 20px;
+    margin-left: 68px;
+     appearance: none;
+    background-color: #364f6b;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+
+  .button-submit-ubahdata {
+
+     margin-top: 20px;
+    margin-left: 68px;
+     appearance: none;
+    background-color: #364f6b;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+
+  .button-submit-inputdatasurat {
+
+    margin-top: 20px;
+    margin-left: 68px;
+     appearance: none;
+    background-color: #364f6b;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+
+.button-submit-cetak {
+
+  appearance: none;
+    background-color: #e27e04;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    margin-left: 6px;
+}
+
+
+.button-submit-cari {
+
+appearance: none;
+    background-color: #364f6b;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+margin-left: 12px;
+}
+
+  .button-submit {
+    appearance: none;
+    background-color: #364f6b;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+
+  .button-download:focus:not(:focus-visible):not(.focus-visible) {
+    box-shadow: none;
+    outline: none;
+  }
+  
+  .button-download:hover {
+    background-color: #18222e;
+  }
+
+  .button-submit:hover {
+    background-color: #18222e;
+  }
+  
+  .button-download:focus {
+    box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+    outline: none;
+  }
+  
+  .button-download:disabled {
+    background-color: #364f6b;
+    border-color: rgba(27, 31, 35, .1);
+    color: rgba(230, 171, 171, 0.8);
+    cursor: default;
+  }
+
+  
+  
+  .button-download:active {
+    background-color: #364f6b;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+  }
+
+  .table-inputdata-admin {
+    background-color: #bfffcd;
+    color: #364f6b;
+    border-collapse: collapse;
+    margin-top: 12px;
+    font-weight: 500;
+        border: 1px solid #364f6b;
+
+  }
+
+.table-inputdata {
+    background-color: #bfffcd;
+    color: #364f6b;
+    border-collapse: collapse;
+    margin-top: 12px;
+    font-weight: 500;
+
+  }
+
+
+  .date {
+
+    text-align: right;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+.td-inputdata {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .margin-left-input {
+
+    margin-left: 20px;
+  }
+  
+.img {
+    width: 28px;
+    height: 28px;
+    margin-top: 50%;
+    margin-bottom: 50%;
+}
+
+.suratpaduan {
+   margin-top: 50px;
+   height: 300px;
+   width: 400;
+}
+
+
+.paragrafaboutus {
+    margin-top: 120px;
+}
+
+
+.kolomaboutus {
+    margin: auto;
+    width: 1100px;
+}
+
+.surataboutus {
+margin-top: 120px;
+   height: 300px;
+   width: 400;
+   margin-right: 30px;
+}
+
+.background {
+    background-color: #364f6b;
+}
+
+
+.marginlrdownloadsurat {
+    margin: auto;
+    width: 1100px;
+    margin-bottom: 50px;
+}
+
+.suratdownloadgambarpage {
+    height: 300px;
+    width: 200;
+    margin-top: 120px;
+    margin-left: 120px;
+ }
+
+ .inputdatasurat {
+
+    width: 1100px;
+    margin: auto;
+    position: relative;
+    margin-top: 10px;
+
+ }
+ 
+ .email:hover {
+    background-color: #3009db;
+ }
+.surat {
+    width: 500px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.kolompaduan {
+ margin: auto;
+ width: 1100px;
+margin-top: 50px;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+    margin-top: 20px;
+}
+
+.margin-home {
+
+    width: 1100px;
+    margin: auto;
+    position: relative;
+    margin-top: 20px;
+}
+
+.logo{
+    font-size: 20px;
+    float: left;
+    font-weight: 700;
+    font-family: 'comic sans ms';
+    color: white;
+}
+
+.download {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.header {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #364f6b;
+    font-style: bold;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.menu {
+    float: right;
+
+}
+
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom:0.1px solid #364f6b;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0; display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+.target {
+    position: absolute;
+    border-bottom: 4px solid transparent;
+    z-index: -1;
+    transform: translateX(-60px);
+  }
+  
+
+nav ul li a:hover {
+    text-decoration: none;
+}
+
+.hover a:hover {
+    text-decoration: none;
+    color:#ec83a2;
+
+
+}
+
+.menu-a {
+    display: inline-block;
+    position: relative;
+}
+
+
+.kolom-tambahdata {
+    margin-top: 30px;
+}
+
+.margin {
+    margin: auto;
+    display: flex;
+}
+
+.home-margin {
+    margin: auto;
+    display: flex;
+}
+
+.kolom-home {
+
+    margin-top: 80px;
+}
+.kolom {
+    margin-top: 30px;
+}
+
+.kolompanduan {
+    margin-top: 10px;
+}
+
+.kolom-home .deskripsi {
+    font-size: 20px;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+.isidata-paragraf {
+
+    color: #364f6b;
+}
+a.btn-pink {
+    background: #fc5185;
+    border-radius: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+.cta {
+    margin-top: 20px;
+}
+
+a.btn-pink:hover {
+    background: #ac264e;
+    text-decoration: none;
+}
+
+a.btn-cta {
+    background: #fc5185;
+    border-radius: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+a.btn-cta:hover {
+    background: #ac264e;
+    text-decoration: none;
+}
+
+
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    color: #211B3D;
+    font-size: 16px;
+}
+
+.header-inputdatasurat {
+    color: #364f6b;
+}
+
+.margin-surat {
+
+    margin-top: 20px;
+    margin-bottom: 6px;
+}
+.tambah-data {
+    color: #364f6b;
+}
+
+.surat-login {
+    width: 120px;
+}
+
+.deskripsi-panduan {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+
+.suratpengantar-margin {
+
+     color: #211B3D;
+    font-size: 16px;
+}
+.hubungi-sekretaris {
+
+    margin-left: 12px;
+}
+
+#margin-btnsuratpengantar {
+
+    margin-top: 4px;
+}
+
+#margin-btnsuratketerangan {
+
+    margin-top: 12px;
+}
+
+#margin-btnketeranganberdomisili {
+
+    margin-top: 12px;
+}
+
+.text-ubahdata {
+
+     appearance: none;
+    background-color: #364f6b;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.text-ubahdata:hover {
+
+    background-color: #211B3D;
+}
+
+.text-hapusdata {
+    
+appearance: none;
+    background-color: #c44242;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.text-hapusdata:hover {
+
+    background-color: #5c1f1f;
+}
+
+@media screen and (max-width: 800px) {
+    .wrapper {
+        width: 90%;
+    }
+
+
+
+    .kolom-home {
+
+        margin-top: 20px;
+    }
+
+
+    .kolomaboutus {
+        
+        width: 90%;
+    }
+
+    .margin-home {
+
+        width: 90%;
+    
+    }
+    .inputdatasurat {
+        
+        width: 90%;
+    }
+    .marginlrdownloadsurat {
+
+        width: 190%;
+        margin-left: 20px;
+    }
+    .kolompaduan {
+
+        width: 90%;
+    }
+    
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kartu-tutor {
+        width: 100%;
+    }
+
+    .kartu-partner {
+        width: 0%;
+    }
+
+    .surat {
+        
+        display: none;
+    }
+
+    .surataboutus {
+        
+        display: none;
+    }
+
+    .paragrafaboutus {
+        margin-top: 40px;
+    }
+    
+    .suratpaduan {
+        
+        display: none;
+    }
+
+    .kolompanduan {
+        margin-top: 0px;
+    }
+
+
+
+.bodyloginuser {
+  font-family: "Karla", sans-serif;
+  background-color: #fff;
+  min-height: 100vh; }
+
+.brand-wrapper {
+  padding-top: 7px;
+  padding-bottom: 8px; }
+  .brand-wrapper .logo {
+    height: 18px; }
+
+.login-section-wrapper {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  padding: 68px 100px;
+  background-color: #fff; }
+  @media (max-width: 991px) {
+    .login-section-wrapper {
+      padding-left: 50px;
+      padding-right: 50px; } }
+  @media (max-width: 575px) {
+    .login-section-wrapper {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      min-height: 100vh; } }
+
+.login-wrapper {
+  width: 300px;
+  max-width: 100%;
+  padding-top: 24px;
+  padding-bottom: 24px; }
+  @media (max-width: 575px) {
+    .login-wrapper {
+      width: 100%; } }
+  .login-wrapper label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #b0adad; }
+  .login-wrapper .form-control {
+    border: none;
+    border-bottom: 1px solid #e7e7e7;
+    border-radius: 0;
+    padding: 9px 5px;
+    min-height: 40px;
+    font-size: 18px;
+    font-weight: normal; }
+    .login-wrapper .form-control::-webkit-input-placeholder {
+      color: #b0adad; }
+    .login-wrapper .form-control::-moz-placeholder {
+      color: #b0adad; }
+    .login-wrapper .form-control:-ms-input-placeholder {
+      color: #b0adad; }
+    .login-wrapper .form-control::-ms-input-placeholder {
+      color: #b0adad; }
+    .login-wrapper .form-control::placeholder {
+      color: #b0adad; }
+
+  .login-wrapper .login-btn {
+    padding: 13px 20px;
+    background-color: #364f6b;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 14px; }
+
+    .login-wrapper .login-btn:hover {
+      border: 1px solid #364f6b;
+      background-color: #fff;
+      color: #364f6b; }
+  .login-wrapper a.forgot-password-link {
+    color: #080808;
+    font-size: 14px;
+    text-decoration: underline;
+    display: inline-block;
+    margin-bottom: 54px; }
+    @media (max-width: 575px) {
+      .login-wrapper a.forgot-password-link {
+        margin-bottom: 16px; } }
+  .login-wrapper-footer-text {
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 0; }
+
+.login-title {
+  font-size: 30px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 25px; }
+
+.login-img {
+  width: 100%;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: left;
+     object-position: left; }
+
+}
